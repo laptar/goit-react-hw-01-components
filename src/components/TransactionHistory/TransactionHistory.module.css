@@ -1,0 +1,47 @@
+.transactionHistory {
+  padding-bottom: 50px;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  width: 100%;
+  /* display: flex;
+  justify-content: center; */
+}
+.head tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightskyblue;
+}
+.head tr th {
+  padding: 10px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.body {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.frstRow {
+  background-color: lightgrey;
+}
+.secRow {
+  background-color: lightyellow;
+}
+
+.row td {
+  padding: 5px;
+  border: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
